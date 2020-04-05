@@ -11,6 +11,8 @@
 		B75001A9243A48C3003E609F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75001A8243A48C3003E609F /* ViewController.swift */; };
 		B75001AB243A48C7003E609F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75001AA243A48C7003E609F /* Assets.xcassets */; };
 		B75001AE243A48C7003E609F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75001AC243A48C7003E609F /* Main.storyboard */; };
+		B75001B8243A4C0B003E609F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75001B7243A4C0B003E609F /* Colors.swift */; };
+		B75001BA243A52FC003E609F /* UserInteractionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75001B9243A52FC003E609F /* UserInteractionState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,9 @@
 		B75001AD243A48C7003E609F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B75001AF243A48C7003E609F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B75001B0243A48C7003E609F /* FlickTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlickTest.entitlements; sourceTree = "<group>"; };
+		B75001B6243A48D5003E609F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B75001B7243A4C0B003E609F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B75001B9243A52FC003E609F /* UserInteractionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractionState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +42,7 @@
 		B750019A243A48C3003E609F = {
 			isa = PBXGroup;
 			children = (
+				B75001B6243A48D5003E609F /* README.md */,
 				B75001A5243A48C3003E609F /* FlickTest */,
 				B75001A4243A48C3003E609F /* Products */,
 			);
@@ -59,6 +65,8 @@
 				B75001AC243A48C7003E609F /* Main.storyboard */,
 				B75001AF243A48C7003E609F /* Info.plist */,
 				B75001B0243A48C7003E609F /* FlickTest.entitlements */,
+				B75001B7243A4C0B003E609F /* Colors.swift */,
+				B75001B9243A52FC003E609F /* UserInteractionState.swift */,
 			);
 			path = FlickTest;
 			sourceTree = "<group>";
@@ -134,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75001A9243A48C3003E609F /* ViewController.swift in Sources */,
+				B75001BA243A52FC003E609F /* UserInteractionState.swift in Sources */,
+				B75001B8243A4C0B003E609F /* Colors.swift in Sources */,
 				B75001A7243A48C3003E609F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
